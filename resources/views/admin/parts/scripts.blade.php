@@ -1,0 +1,1 @@
+<script src="{{ asset('js/app-admin.js') }}" defer></script>

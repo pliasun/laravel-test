@@ -1,0 +1,51 @@
+.fas:before {
+    font-family: "Font Awesome\ 5 Free";
+    font-weight: 900;
+}
+.dt-buttons {
+    position: relative;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    vertical-align: middle;
+}
+.dt-buttons>.dt-buttonsp:not(:first-child)>.dt-button,
+.dt-buttons>.dt-button:not(:first-child) {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.dt-buttons>.dt-buttons:not(:first-child),
+.dt-buttons>.dt-button:not(:first-child) {
+    margin-left: -1px;
+}
+.dt-buttons>.dt-button:not(:last-child)>.dt-button, .dt-buttons>.dt-button:not(:last-child):not(.dropdown-toggle) {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.dt-button {
+    border-radius: 3px;
+}
+.dt-buttons>.dt-button:hover {
+    z-index: 1;
+    outline: none;
+}
+.dt-buttons>.dt-button:active{
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15) inset;
+}
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    line-height: 33px
+}
+.select2-container--default .select2-selection--single .select2-selection__arrow{
+    top: 5px;
+}
+.select2 {
+    width: 100% !important
+}
+.select2-container--default .select2-selection--single,
+.select2-container--default .select2-selection--multiple {
+  border-radius: 0;
+  height: 36px;
+}
+.dflex {
+    display: flex;
+    flex-wrap: wrap;
+}
